@@ -1,0 +1,265 @@
+@media(max-width:992px){
+  /* start forth section */
+  .section-four{
+    flex-wrap: wrap;
+  }
+  .section-four .div-four{
+    height: 340px;
+  }
+
+  /* end forth section */
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    /* Start first section */
+    .section-one{
+        flex-wrap: wrap;
+        height: 54vh;
+    } 
+    .section-one .div-one {
+        height: 354px;
+        width: 570px;
+      }
+      .div-one h1 {
+        font-size: 43px;
+        text-align: center;
+      }
+      .div-one p {
+        font-size: 25px;
+        word-spacing: 2px;
+        line-height: 35px;
+        padding-top: 15px;
+        text-align: center;
+      }
+      .div-one button{
+        margin-left: 35%;
+    }
+    .div-one img {
+      height: 247px;
+      width: 299px;
+      display: block;
+      margin: auto;
+    }
+/* End first section */
+/* Start second section */
+.section-two {
+    height: 200px;
+  }
+.section-two .common-logo {
+    height: 50px;
+    width: 143px;
+  }
+/* End second section */
+/* Start third section */
+.card-area{
+    grid-template-columns: repeat(2, 1fr);
+}
+/* end third section */
+/* Start forth section */
+.section-four .div-four {
+  height: 357px;
+}
+.div-four p {
+  font-size: 23px;
+  word-spacing: 2px;
+  line-height: 32px;
+  padding-top: 15px;
+  padding-left: 13px;
+}
+.div-four h1 {
+  font-size: 47px;
+}
+.div-four button {
+  margin-left: 10px;
+}
+.div-four img {
+  height: 280px;
+  width: 400px;
+  position: absolute;
+  top: 2%;
+}
+/* end forth section */
+}
+
+
+@media(max-width:518px){
+    /* Start first section */
+    .section-one .div-one {
+        height: 275px;
+        width: 289px;
+      }
+
+    .div-one h1 {
+        font-size: 32px;
+        text-align: center;
+      } 
+      .div-one p {
+        font-size: 19px;
+    word-spacing: 2px;
+    line-height: 21px;
+    padding-top: 11px;
+    text-align: center;
+      }
+      .div-one button {
+        margin-left: 23%;
+        margin-top: 19px;
+      }
+      .div-one img {
+        height: 194px;
+        width: 254px;
+        display: block;
+        margin: auto;
+        padding-top: 28px;
+        border: 3px solid #e6dcdc;
+        border-radius: 50%;
+       
+      }
+      /* End first section */
+
+     
+      /*Start second section*/
+      .section-two {
+        height: 270px;
+      }
+      .section-two .common-logo {
+        height: 50px;
+        width: 128px;
+      }
+      /*End second section*/
+
+       /* Start third section */
+      .third-section h1 {
+        font-size: 42px;
+        line-height: 56px;
+        margin-top: 15px;
+      }
+     .card-area{
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      }
+     /* end third section */
+
+     /* start forth section */
+     .section-four .div-four {
+      height: 300px;
+    }
+     .div-four h1 {
+      font-size: 29px;
+      padding-left: 13px;
+      text-align: center;
+    }
+    .div-four p {
+      font-size: 17px;
+    word-spacing: 2px;
+    line-height: 21px;
+    padding-top: 15px;
+    text-align: center
+    }
+    .div-four button {
+      margin-left: 74px;
+      margin-top: 11px;
+    }
+    .div-four img {
+      height: 227px;
+      width: 230px;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+    
+     /* end forth section */
+}
+
+
+
+
+
+/* Responsive Navigation Part*/
+
+@media(max-width:768px) {
+  .checkbtn {
+    display: block;
+  } 
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -110%;
+    text-align: center;
+    transition: 0.5s;
+  }
+  nav ul li{
+  display: block;
+  }
+  nav ul li a{
+font-size: 20px;
+color: wheat;
+  }
+  a:hover{
+    background: none;
+    color: aqua;
+  }
+  #check:checked ~ ul{
+    left:0;
+  }
+}
+/* End Main Part */
+
+
+
+
+
+@media(min-width:1200px){
+  
+ }
+
+ @media(min-width:992px) and (max-width:1199px){
+  nav .logo {
+    margin: 0 69px;
+  }
+
+ }
+
+ @media(min-width:768px) and (max-width:991px){
+  label.logo{
+    font-size: 30px;
+     padding-left: 30px;
+     margin: 0 12px;
+  }
+  nav ul li a{
+      font-size: 16px;
+  }
+
+ }
+ @media(min-width:576px) and (max-width:767px){
+  nav .logo {
+    font-size: 30px;
+    margin: 0 17px;
+  }
+
+ }
+ @media(min-width:300px) and (max-width:575px){
+  nav .logo {
+    font-size: 24px;
+    margin: 0 4px;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -115%;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+ }
+/* End Responsive Navigation part */
